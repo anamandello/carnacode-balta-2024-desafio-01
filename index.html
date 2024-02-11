@@ -5,22 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>IMC</title>
 </head>
 
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
+    <div class="order">
+        <div>
+            <h1>Cálculo de IMC</h1>
+        </div>
+        <div class="inputOrdering">
+            <input type="text" placeholder="Altura">
+            <input type="text" placeholder="Peso">
+            <input type="text" placeholder="Sexo">
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" name="age" id="age">
+            <label>
+                Eu tenho 65 anos ou mais.
+            </label>
+        </div>
+        <div class="buttonOrdering">
+            <a href="history.html" class="whiteButton">Calcular meu IMC</a>   
+            <a href="history.html">Entenda o cálculo</a> 
+        </div>
     </div>
-    <div>
-        <input class="input" type="text" />
-    </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
 </body>
 
 </html>

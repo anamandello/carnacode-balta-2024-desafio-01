@@ -1,12 +1,136 @@
-.flex {
-    display: flex;
+*{
+    font-family: "Inter";
+    margin: 0;
 }
 
-.flex-row {
-    flex-direction: row;
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.875em;
 }
 
-.input-text {
+label {
+    font-family: "Inter";
+    font-weight: normal;
+    font-size: 0.875em;
+    color: #666666;
+}
+
+input {
+    padding: 16px 16px 15px 16px;
+    border-radius: 8px;
     background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
+    border: 1px solid #E8E8E8;
+
+    &::placeholder{
+        color: #BDBDBD;
+    }
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    gap: 1em;
+    background-color: white;
+}
+
+.inputOrdering {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.checkbox {
+    margin-bottom: 0.375em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.buttonOrdering{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+a {
+    text-decoration: none;
+    padding: 1em;
+    border: 4px solid #45FEFE;
+    border-radius: 100px;
+    background-color: #45FEFE;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    color: #000000;
+
+    &:hover{
+        background-color: #45EEEE;
+        cursor: pointer;
+    }
+}
+
+.whiteButton{
+    background-color: white;
+
+    &:hover{
+        background-color: rgb(249, 249, 249);
+    }
+}
+
+.purple {
+    background-color: #2E1462;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+
+.startimage{
+    padding: 1.2em;
+    margin: auto;
+    border-radius: 25px;
+    border: 4px solid #45FEFE;
+    width: 11.25em;
+    background-color: white;
+}
+
+.image{
+    padding: 0.875em;
+    margin: auto;
+    border-radius: 25px;
+    border: 4px solid #45FEFE;
+    width: 100px;
+    margin-top: -6.5em;
+    background-color: white;
+  }
+
+p{
+    text-align: center;
+    color: #666666;
+}
+
+section{
+    padding: 1em;
+    border-radius: 16px;
+    width: 100vw;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    justify-content: center;
+    align-items: center;
+    
+    p{
+        text-align: center;
+    }
 }
